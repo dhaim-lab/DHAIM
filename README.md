@@ -53,9 +53,23 @@ An independent release-gate report records **44 PASS and one REVIEW_REQUIRED**, 
 
 Name substitution is **not anonymization**: the publicly identified source may allow recovery of the original conversation and names. The public replay uses documented derived fixtures, not the exact original input bytes. Programs, verifier and original automatic results remain unchanged.
 
-Download: [WCT07_PUBLIC_REPLAY_RELEASE_v0.1.0_2026-10-14.zip](WCT07_PUBLIC_REPLAY_RELEASE_v0.1.0_2026-10-14.zip). The archive includes its own SHA-256 manifest. It runs offline with Python and GCC in an isolated disposable Linux environment; no new model calls are needed. Read the safety instructions before executing generated code.
+Download: [WCT07_PUBLIC_REPLAY_DOC_UPDATE_v0.1.1_2026-10-14.zip](WCT07_PUBLIC_REPLAY_DOC_UPDATE_v0.1.1_2026-10-14.zip). The archive includes its own SHA-256 manifest. It runs offline with Python and GCC in an isolated disposable Linux environment; no new model calls are needed. Read the safety instructions before executing generated code.
 
 See LICENSE_SCOPE.md: project-authored evaluation software is MIT; project-authored documentation and text-free metadata are CC BY 4.0. Generated program artifacts and external source-derived material have separate notices, not a blanket project relicense.
+
+## What this work sample demonstrates
+
+This pilot shows an inspectable evaluation workflow: turn a requirement from a natural conversation into a testable task; define inherited-history, reminder and fresh-start conditions; retain generated artifacts and costs; apply a frozen automatic verifier; preserve a disputed result for separate review; and hand over an offline replay package with hashes and source provenance.
+
+The same workflow can be scoped to a client's own tasks: agree requirements and permitted source data, define measurable checks and comparison conditions, run a bounded evaluation, and deliver evidence-linked findings with explicit uncertainties and a reproducibility handoff. WC-T07 is a work sample of that process, not proof of customer demand, profitability, or performance on a new task. No prior client engagement is claimed.
+
+For a project inquiry, [open a GitHub issue](https://github.com/dhaim-lab/DHAIM/issues) without including confidential data.
+
+## Browse the code without downloading a ZIP
+
+The core code is directly inspectable: [frozen verifier](https://github.com/dhaim-lab/DHAIM/blob/main/verifier.py), [offline replay utility](https://github.com/dhaim-lab/DHAIM/blob/main/rescore_saved_programs.py), and [usage and safety instructions](https://github.com/dhaim-lab/DHAIM/blob/main/REPLAY_USAGE.md). These separate source files are for inspection. For execution, download and unpack the complete ZIP; it includes all 45 programs, fixtures and the hash manifest in the required directory structure.
+
+Version 0.1.1 changes documentation and discoverability only. Version 0.1.0 remains available; no programs, fixtures, scoring logic, automatic result labels, or experimental settings were changed. No additional model calls were made.
 
 ## Costs and archival incident
 
@@ -67,7 +81,7 @@ Total recorded model-call expenditure was **$4.03247340**; human effort is not i
 
 This is one selected case, five repetitions per model–condition cell and two primary fixtures—not a representative sample or a general model ranking. It tests continuation from inherited fixed history, not repair of a model's own live conversation. The recorded identifiers do not establish unobserved backend versions, and the study is not a controlled historical-versus-current model comparison. It does not establish equivalence between conditions, broad correctness, or commercial value.
 
-Instrument version: **0.4**. Public release version: **0.1.0**.
+Instrument version: **0.4**. Public documentation release: **0.1.1** (original release **0.1.0**).
 
 Name substitution is not anonymization: the publicly identified source may allow recovery of the original names and conversation.
 
