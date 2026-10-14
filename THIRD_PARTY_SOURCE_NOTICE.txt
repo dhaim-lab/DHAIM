@@ -1,0 +1,21 @@
+# External source and modifications
+
+Source credit: Allen Institute for AI, allenai/WildChat-1M.
+Dataset: https://huggingface.co/datasets/allenai/WildChat-1M
+Source dataset license identified by its card: ODC Attribution License
+(ODC-BY) 1.0: https://opendatacommons.org/licenses/by/1-0/
+
+Retain this attribution and modification notice. Specific source identifiers
+and the later matching snapshot are in docs/source_identity.json. That
+snapshot is not claimed to be the original collection revision.
+
+This package excludes the source conversation and full provider responses.
+Public fixtures are named-substituted derivatives where specified by
+FIXTURE_PROVENANCE.json; original numerical vote data is unchanged.
+Already-synthetic diagnostic files are unchanged where so recorded.
+Public evaluation display records are transformed, not exact raw JSON.
+
+The source database's license is not a project-granted license over all
+individual conversation contents or personal rights. External rights are
+not replaced by the project's MIT/CC BY notices. The name substitutions
+reduce direct republication but do not anonymize a publicly traceable case.

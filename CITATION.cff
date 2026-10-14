@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this bounded pilot when using these results."
+title: "WC-T07: Recovering an Explicit Requirement from Incomplete Conversation History"
+authors:
+  - name: "DHAIM Lab"
+version: "0.1.0"
+date-released: "2026-10-14"
+url: "https://github.com/dhaim-lab/DHAIM"

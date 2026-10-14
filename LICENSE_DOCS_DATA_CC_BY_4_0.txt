@@ -1,0 +1,17 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Licensor and designated attribution: DHAIM Lab, WC-T07 release 0.1.0 (2026).
+
+Project-authored explanatory documentation and project-generated text-free
+results/metadata are licensed under CC BY 4.0 to the extent DHAIM Lab holds
+the relevant copyright or database rights. Scope is specified in
+LICENSE_SCOPE.md; this is not a license over external source content,
+generated C artifacts, or third-party rights.
+
+Canonical license: https://creativecommons.org/licenses/by/4.0/
+Binding legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+Plain-text legal code: https://creativecommons.org/licenses/by/4.0/legalcode.txt
+
+Retain attribution and license notices and indicate modifications when
+sharing. The binding license, not this notice, controls. No warranty is
+provided. Privacy, publicity, patent and trademark rights are not granted.

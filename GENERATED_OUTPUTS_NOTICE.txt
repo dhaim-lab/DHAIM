@@ -1,0 +1,21 @@
+# Generated evaluation artifacts
+
+The 45 programs are byte-identical extractions from retained generated
+responses. Full responses are not distributed. Exact recorded provider model
+identifiers are in data/runs.jsonl. No provider endorsement is implied.
+
+DHAIM Lab authorizes copying, compiling, executing for evaluation, and sharing
+these retained artifacts to the extent it holds rights permitting those acts.
+Keep this notice and source attribution with redistributed copies. This
+permission does not purport to grant rights held by others or to alter terms
+applicable to access to a provider service. It is not a claim that AI-generated
+code necessarily qualifies for copyright protection, and is not an unrestricted
+model-training license. Applicable provider restrictions remain distinct from
+the project's MIT license for its own evaluation software.
+
+Programs are provided AS IS, without warranties of accuracy, fitness, safety,
+or non-infringement. Compile and execute only in a disposable isolated runner.
+
+Provider-terms references and the indirect Kaggle-access caveat are in
+docs/TERMS_AND_ATTRIBUTION.md. The project does not certify third-party rights
+clearance merely because a provider assigns its own rights in an output.
